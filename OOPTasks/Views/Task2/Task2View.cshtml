@@ -1,0 +1,101 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Task2View</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form action="Action" method="post">
+        <div class="BlackDiv" name="BlackDiv">
+
+            <span class="Header">
+                Social Security Institution مؤسسة الضمان الأجتماعي
+            </span>
+
+            <div class="Divs">
+                <div class="Color">
+                    First Name
+                </div>
+                <div style="clear:left">
+                    <input class="textBox" type="text" name="TxtFirst" />
+                </div>
+            </div>
+            <div class="Divs">
+                <div class="Color">
+                    Last Name
+                </div>
+                <div style="clear:left">
+                    <input class="textBox" type="text" name="TxtLast" />
+                </div>
+            </div>
+
+            <div class="Divs">
+                <div class="Color">
+                    You Are:
+                </div>
+                <div style="float:left">
+                    <select id="Type" name="List">
+                        <option value="Teacher">Teacher</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Engineer">Engineer</option>
+                    </select>
+                </div>
+
+                <div class="Color" style="margin-left:35px">
+                    Gender
+                </div>
+                <div class="Color">
+                    <input type="radio" name="gender" value="Male" /> Male
+                    <input type="radio" name="gender" value="Female" /> Female
+                </div>
+            </div>
+
+            <div class="Divs" style="margin-top:40px">
+                <div class="Color">
+                    Your Salary:
+                </div>
+                <div style="clear:left">
+                    <input class="textBox" type="number" name="TxtSalary" />
+                </div>
+            </div>
+
+            <div class="Divs">
+                <div class="Color">
+                    Do You Have Any Deduction:
+                </div>
+                <div style="clear:left">
+                    <input class="textBox" type="text" name="TxtDuduction" />
+                </div>
+            </div>
+
+            <div class="Divs">
+                <div class="Color">
+                    Do You Have Any Insentive:
+                </div>
+                <div style="clear:left">
+                    <input class="textBox" type="text" name="TxtInsentive" />
+                </div>
+            </div>
+
+            <div style="clear:left">
+                <input class="btn" type="submit" value="Save" />
+            </div>
+            <br />
+            <br />
+            <div class="BuildDiv">
+                <span>@ViewData["Msg"]</span>
+            </div>
+        </div>
+    </form>
+        
+
+
+</body>
+</html>

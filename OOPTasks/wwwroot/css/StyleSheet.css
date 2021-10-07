@@ -1,0 +1,63 @@
+﻿body {
+    background-image: url('../Image/JOR.jpg');
+}
+
+.BlackDiv {
+    width: 950px;
+    height: 550px;
+    margin: 55px 0px 0px 160px;
+    background: black;
+    opacity: 0.8;
+}
+
+.Header {
+    float: left;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0px 0px 220px;
+}
+
+.Divs {
+    clear: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Color {
+    float: left;
+    color: white;
+}
+
+.textBox {
+    width: 875px;
+    height: 18px;
+    background-color: black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: white;
+    font-size: 16px;
+    outline: 0px;
+}
+
+.btn {
+    width: 875px;
+    margin: 20px 0px 0px 25px;
+    height: 35px;
+    background: #03a9f4;
+    border: 1px transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+    .btn:hover {
+        cursor: pointer;
+    }
+
+.BuildDiv {
+    color: green;
+    font-size: 19px;
+}
